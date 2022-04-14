@@ -1,0 +1,58 @@
+.watch
+{
+	&__frame
+	{
+		width: 50vh;
+		height: 50vh;
+		margin: auto;
+		border-radius: 25vh;
+		background-color: black;
+	}
+
+	&__long-hand
+	{
+		position: relative;
+		top: 25vh;
+		left: 25vh;
+		width: 15vh;
+		height: 15px;
+		height: 15px;
+		transform-origin: left;
+		background-color: white;
+	}
+	&__short-hand
+	{
+		position: relative;
+		top: calc( 25vh - 12.5px );
+		left: 25vh;
+		width: 20vh;
+		height: 10px;
+		transform-origin: left;
+		background-color: white;
+		
+	}
+	&__second-hand
+	{
+		position: relative;
+		top: calc( 25vh - 22.5px );
+		left: 25vh;
+		width: 23vh;
+		height: 5px;
+		transform-origin: left;
+		background-color: white;
+	}
+
+	&__rotation
+	{
+		transform: rotate( 270deg );
+	}
+
+	&__diag
+	{
+		text-align: center;
+		position: absolute;
+		display: inline-block;
+		font-size: 3rem;
+		color: rgb(147, 147, 147);
+	}
+}

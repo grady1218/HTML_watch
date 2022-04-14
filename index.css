@@ -1,0 +1,55 @@
+.watch__frame {
+  width: 50vh;
+  height: 50vh;
+  margin: auto;
+  border-radius: 25vh;
+  background-color: black;
+}
+
+.watch__long-hand {
+  position: relative;
+  top: 25vh;
+  left: 25vh;
+  width: 15vh;
+  height: 15px;
+  height: 15px;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  background-color: white;
+}
+
+.watch__short-hand {
+  position: relative;
+  top: calc( 25vh - 12.5px);
+  left: 25vh;
+  width: 20vh;
+  height: 10px;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  background-color: white;
+}
+
+.watch__second-hand {
+  position: relative;
+  top: calc( 25vh - 22.5px);
+  left: 25vh;
+  width: 23vh;
+  height: 5px;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  background-color: white;
+}
+
+.watch__rotation {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.watch__diag {
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  font-size: 3rem;
+  color: #939393;
+}
+/*# sourceMappingURL=index.css.map */
